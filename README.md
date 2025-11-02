@@ -359,26 +359,6 @@ VITE_API_BASE_URL=https://api.your-domain.com/api
 const baseURL = import.meta.env.VITE_API_BASE_URL
 ```
 
-## 更新日志
-
-### v1.0.0 (2024)
-- ✨ 初始版本发布
-- ✨ 用户认证系统
-- ✨ 联系人 CRUD 功能
-- ✨ 分组管理
-- ✨ 搜索功能
-- 🎨 响应式 UI 设计
-
-## 未来规划
-
-- [ ] 联系人头像上传
-- [ ] 批量操作（导入/导出）
-- [ ] 联系人详情页
-- [ ] 收藏功能
-- [ ] 深色模式
-- [ ] 国际化支持
-- [ ] 单元测试
-
 ## 许可证
 
 MIT License
