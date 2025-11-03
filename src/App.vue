@@ -548,6 +548,9 @@ export default {
         if (data.authenticated) {
           isAuthenticated.value = true
           currentUser.value = data.username
+          // 认证成功后加载数据
+          fetchGroups()
+          fetchContacts()
         }
       } catch (err) {
         console.log('未登录')
